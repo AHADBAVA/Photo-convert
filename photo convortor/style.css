@@ -1,0 +1,74 @@
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px;
+    background-color:rgb(8, 10, 12);
+}
+.upload{
+    width:50%;
+    background-color:rgb(0, 0, 0);
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    border:1px solid rgb(157, 157, 157);
+}
+.upload p{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top:-10px;
+}
+.upload-h1{
+    color: rgb(253, 254, 255);
+    text-decoration:underline;
+    text-decoration-color:rgb(0, 208, 255);
+}
+.cnvort{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:10px;
+}
+#fileTypeSelect{
+    padding:5%;
+    font-size:16px;
+    border-radius:5px;
+    width:150px;
+    margin-right:20px;
+    background-color:rgb(255, 255, 255);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#convertBtn{
+    padding:5%;
+    background-color:rgb(0, 72, 139);
+    width:150px;
+    border:none;
+    color: white;
+    font-size:18px;
+    border-radius:5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#downloadLink{
+    background-color:rgb(8, 87, 140);
+    padding:4%;
+    border-radius:5px;
+    border:none;
+    width:170px;
+    margin-left:20px;
+    text-align:center;
+    text-decoration:none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+}
+.emoji{
+    background-color:transparent;
+}
